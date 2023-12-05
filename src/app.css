@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+
+body{
+	@apply bg-background text-text-color
+}
+
+h1 {
+	@apply text-5xl font-semibold;
+}
+h2 {
+	@apply text-3xl font-medium pb-1 text-center;
+}
+
+a {
+	@apply text-sub-color hover:text-sub-alt-color transition-all duration-200 ease-in-out;
+}
