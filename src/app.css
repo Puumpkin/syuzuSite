@@ -5,7 +5,7 @@
 html,
 
 body{
-	@apply bg-background text-text-color
+	@apply bg-background text-text-color text-center;
 }
 
 h1 {
