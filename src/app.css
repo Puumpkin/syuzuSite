@@ -15,10 +15,12 @@ h2 {
 	@apply text-3xl font-medium pb-1 text-center;
 }
 
+h3 {
+	@apply text-2xl font-medium text-center;
+
+}
+
 a {
 	@apply text-sub-color hover:text-sub-alt-color transition-all duration-200 ease-in-out;
 }
 
-p {
-	@apply text-lg
-}
